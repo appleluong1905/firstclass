@@ -1,0 +1,38 @@
+.box3 {
+	width: 900px;
+	height: 500px;
+	border: 5px dotted #6EEE72;
+}
+/*Dinh nghia font cho web*/
+@font-face {
+  font-family: myfont1;
+  src: url('../fonts/WispyNight.ttf');
+}
+@font-face {
+  font-family: myfont2;
+  src: url('../fonts/CynthianFont.ttf');
+}
+.text2 {
+	font-size: 30px;
+	font-family: 'myfont2';
+}
+.text1 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'myfont1';
+	text-indent: 20px;
+}
+.text3 {
+	text-transform: lowercase;
+}
+.text4 {
+	text-decoration: line-through;
+	color: red;
+}
+.text5 {
+	font-size: 50px;
+	font-weight: bold;
+	color: green;
+	text-transform: uppercase;
+	text-shadow: 8px 4px 5px pink;
+}

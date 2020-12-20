@@ -1,0 +1,37 @@
+/*Định nghĩa box thứ 1 trong cùng*/
+.box1 {
+	/*Định nghĩa border cho box*/
+	border: 1px dotted black;
+	/*Setting padding cho box*/
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+/*Định nghĩa box thứ 2 trong cùng*/
+.box2 {
+	/*Định nghĩa border cho box*/
+	border: 1px dotted black;
+	/*Setting padding cho box*/
+	padding: 10px;
+}
+/*Định nghĩa cho box lớn phía ngoài*/
+.large {
+	/*Định nghĩa độ rộng của box phía ngoài*/
+	width: 450px;
+	/*Định nghĩa border cho box*/
+	border: 2px dotted black;
+	/*Định nghĩa để box lớn ngoài cùng cân giữa màn hình*/
+	margin: 0 auto;
+	/*Setting padding cho box*/
+	padding: 20px;
+}
+/*Định nghĩa cho box nhỏ phía trong*/
+.small {
+	/*Định nghĩa độ rộng của box phía trong*/
+	width: 400px;
+	/*Định nghĩa border cho box*/
+	border: 2px solid black;
+	/*Setting padding cho box*/
+	padding: 20px;
+}
