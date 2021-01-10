@@ -1,0 +1,29 @@
+ul li {
+	list-style-type: circle;
+	list-style-image: url('../img/icon_24h.ico');
+}
+li.tuoitre {
+	list-style-image: url('../img/favicon.ico');
+}
+ol li {
+	list-style-type: upper-alpha;
+}
+.example-link {
+	width: 300px;
+	height: 400px;
+}
+a {
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	/*text-transform: ;;;*/
+}
+a:link {
+	color: green;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: yellow;
+}

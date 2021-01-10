@@ -1,0 +1,53 @@
+/*reset lại padding và margin của mọi đối tượng trên website*/
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+.header {
+	height: 100px;
+	margin-top: 20px;
+}
+.header-left {
+	width: 120px;
+	float: left;
+}
+.header-right {
+	width: 650px;
+	float: left;
+}
+h1 {
+	color: #af7820;
+}
+h2 {
+	color: #5fa275;
+	text-indent: 10px;
+}
+ul {
+	margin-left: 40px;
+}
+.p-1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.link-1 {
+	color: #af7820;
+	font-weight: bold;
+}
+.link-2 {
+	color: #5fa275;
+	font-weight: bold;
+}
+.link-3 {
+	color: #b2b8b7;
+	font-weight: bold;
+}
+.contact {
+	font-weight: bold;
+}
+.footer {
+	float: right;
+}
