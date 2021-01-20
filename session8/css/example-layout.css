@@ -1,0 +1,110 @@
+/*Code cho man hinh 1280px tro len*/
+* {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.container {
+	border: 1px solid black;
+}
+#header {
+	height: 100px;
+	border-bottom: 1px solid black;
+}
+.logo {
+	width: 30%;
+	height: 100px;
+	line-height: 100px;
+	border-right: 1px solid black;
+	float: left;
+}
+.banner {
+	width: 69.5%;
+	float: left;
+	line-height: 100px;
+}
+.slider {
+	height: 150px;
+	border-bottom: 1px solid black;
+	line-height: 150px;
+}
+#content {
+	height: 150px;
+	border-bottom: 1px solid black;
+}
+.content-left {
+	width: 49.7%;
+	height: 150px;
+	border-right: 1px solid black;
+	float: left;
+	line-height: 150px;
+}
+.content-right {
+	width: 49.7%;
+	float: left;
+	line-height: 150px;
+}
+#footer {
+	height: 300px;
+}
+.footer-1 {
+	height: 150px;
+	border-bottom: 1px solid black;
+	line-height: 150px;
+}
+.footer-2 {
+	height: 150px;
+	border-bottom: 1px solid black;
+	line-height: 150px;
+}
+/*Code cho man hinh 768*/
+@media screen and (max-width: 768px) {
+	.logo, .banner {
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+	.slider {
+		display: none; /*style này dùng để ẩn đối tượng đi*/
+	}
+	#header {
+		height: 200px;
+		border: none;
+	}
+	#footer {
+		height: 150px;
+		clear: both;
+	}
+	.footer-1 {
+		width: 49.7%;
+		float: left;
+		border-right: 1px solid black;
+	}
+	.footer-2 {
+		width: 49%;
+		float: left;
+	}
+}
+/*Code cho man hinh 768*/
+@media screen and (max-width: 560px) {
+	#header {
+		height: 100px;
+	}
+	.banner {
+		display: none;
+	}
+	.slider {
+		display: block; /*style này để hiển thị đối tượng*/
+	}
+	.content-left, .content-right {
+		width: 100%;
+	}
+	#footer {
+		border-top: 1px solid black;
+	}
+	.footer-1 {
+		width: 100%;
+	}
+	.footer-2 {
+		display: none;
+	}
+}
